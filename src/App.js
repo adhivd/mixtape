@@ -25,10 +25,6 @@ function App() {
       src: bh42,
       title: "BH 42 take 1",
     },
-    // {
-    //   src: dawg,
-    //   title: "dawg fuck you",
-    // },
     {
       src: madness,
       title: "madness for your eyes",
@@ -59,7 +55,6 @@ function App() {
         <h1>todo: album name</h1>
         <p>cherry wine</p>
         <p>bh42</p>
-        <p>dawg fuck you</p>
         <p>madness for your eyes</p>
         <p>hangover buncha ideas</p>
         <p>laid back melody but in jazz</p>

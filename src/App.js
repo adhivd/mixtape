@@ -30,16 +30,16 @@ function App() {
       title: "madness for your eyes",
     },
     {
-      src: hangover,
-      title: "hangover buncha ideas",
-    },
-    {
       src: laid,
       title: "laid back melody but in jazz",
     },
     {
       src: tamiko,
       title: "tamiko jones",
+    },
+    {
+      src: hangover,
+      title: "hangover buncha ideas",
     },
   ];
   
@@ -56,9 +56,10 @@ function App() {
         <p>cherry wine</p>
         <p>bh42</p>
         <p>madness for your eyes</p>
-        <p>hangover buncha ideas</p>
         <p>laid back melody but in jazz</p>
         <p>tamiko jones</p>
+        <p>hangover buncha ideas</p>
+
       </header>
 
     

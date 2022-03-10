@@ -25,10 +25,10 @@ function App() {
       src: bh42,
       title: "BH 42 take 1",
     },
-    {
-      src: dawg,
-      title: "dawg fuck you",
-    },
+    // {
+    //   src: dawg,
+    //   title: "dawg fuck you",
+    // },
     {
       src: madness,
       title: "madness for your eyes",

@@ -30,10 +30,6 @@ function App() {
       title: "madness for your eyes",
     },
     {
-      src: laid,
-      title: "laid back melody but in jazz",
-    },
-    {
       src: tamiko,
       title: "tamiko jones",
     },
@@ -52,11 +48,10 @@ function App() {
         <img src={cover} className="App-logo" alt="logo" />
         <AudioPlayer
         audioFiles={audioFiles}/>
-        <h1>todo: album name</h1>
+        <h1>All good, all gone</h1>
         <p>cherry wine</p>
         <p>bh42</p>
         <p>madness for your eyes</p>
-        <p>laid back melody but in jazz</p>
         <p>tamiko jones</p>
         <p>hangover buncha ideas</p>
 

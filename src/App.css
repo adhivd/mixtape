@@ -24,6 +24,18 @@
   color: white;
 }
 
+header img {
+  border-radius: 100000px;
+}
+
+header a {
+  text-decoration: underline !important;
+  color: white;
+  font-size: 14px;
+  position: relative;
+  top: 20px;
+}
+
 .App-link {
   color: #61dafb;
 }

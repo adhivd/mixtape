@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import { useState, useCallback } from 'react';
-
+  
 import './App.css';
 import AudioPlayer from 'react-modular-audio-player';
 import bh42 from './audio/bh42.mp3';
@@ -12,6 +12,8 @@ import laid from './audio/laid.mp3'
 import tamiko from './audio/tamiko.mp3'
 
 import cover from './img/tck.png';
+import album from './img/1.png';
+
 
 
 function App() {
@@ -23,11 +25,11 @@ function App() {
     },
     {
       src: bh42,
-      title: "BH 42 take 1",
+      title: "BH 42",
     },
     {
       src: madness,
-      title: "madness for your eyes",
+      title: "madness",
     },
     {
       src: tamiko,
@@ -35,7 +37,7 @@ function App() {
     },
     {
       src: hangover,
-      title: "hangover buncha ideas",
+      title: "hangover",
     },
   ];
   
@@ -45,15 +47,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={cover} className="App-logo" alt="logo" />
+        <img src={album} className="App-logo" alt="logo" />
         <AudioPlayer
         audioFiles={audioFiles}/>
-        <h1>All good, all gone</h1>
+        <h1>all good, all gone</h1>
         <p>cherry wine</p>
-        <p>bh42</p>
-        <p>madness for your eyes</p>
+        <p>BH 42</p>
+        <p>madness</p>
         <p>tamiko jones</p>
-        <p>hangover buncha ideas</p>
+        <p>hangover</p>
+        <br />
+        <a href="https://docs.google.com/document/d/1XxNqRT-Bd8EKvdTNpKt2i2Dfmunx1-usEguehjS_XME/edit#heading=h.bg9qanc2ghfg" target="_blank" >lyrics doc</a>
 
       </header>
 
